@@ -84,4 +84,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-展示效果如图：![](https://raw.githubusercontent.com/vipstone/opencvLab/master/res/show-meinv.png)
+展示效果如图：![正在加载图片](https://raw.githubusercontent.com/vipstone/opencvLab/master/res/show-meinv.png)
