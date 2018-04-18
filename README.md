@@ -20,4 +20,4 @@ opencv for python
 
 ## 实践教程 ##
 
-[opencv for python环境搭建](doc/环境搭建.md)
+[opencv python环境搭建](doc/环境搭建.md)
