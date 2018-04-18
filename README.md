@@ -8,3 +8,9 @@ opencv for python
 
 视频中人脸识别
 
+
+
+
+## 实践教程 ##
+
+[opencv for python环境搭建](doc/环境搭建.md)
