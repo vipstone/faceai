@@ -7,8 +7,9 @@ opencv for python
 
 ## 教程文档 ##
 
-[opencv python环境搭建](doc/huanjingdajian.md)
+[opencv环境搭建](doc/huanjingdajian.md)
 
+图片识别
 
 ## 实现功能 ##
 
