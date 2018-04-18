@@ -6,7 +6,7 @@ opencv for python
 
 ## 功能 ##
 
-<font face="宋体">
+
 图片基础处理
 
 静态图片智能分析与识别
@@ -15,7 +15,7 @@ opencv for python
 
 视频人脸智能识别
 
-视频活物检测</font>
+视频活物检测
 
 
 ## 实践教程 ##
