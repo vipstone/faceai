@@ -1,13 +1,13 @@
-# opencv实验室
+# OpenCV实验室
 
-opencv for python
+OpenCV for Python
 
->开发环境：windows 10 + python 3.6x + opencv 3.4.1
+>开发环境：Windows 10（x64） + Python 3.6x + OpenCV 3.4.1
 
 
 ## 教程文档 ##
 
-[opencv环境搭建](doc/huanjingdajian.md)
+[OpenCV环境搭建](doc/huanjingdajian.md)
 
 图片识别
 
