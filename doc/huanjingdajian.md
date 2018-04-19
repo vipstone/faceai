@@ -85,3 +85,8 @@ cv2.destroyAllWindows()
 ```
 
 展示效果如图：![正在加载图片](https://raw.githubusercontent.com/vipstone/opencvLab/master/res/show-meinv.png)
+
+
+----------
+
+下一节：[人脸检测](jiance.md)
