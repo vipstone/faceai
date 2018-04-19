@@ -1,6 +1,6 @@
 # OpenCV实验室
 
-OpenCV for Python
+OpenCV在Python中的实践，包含图片处理、图片识别、视频识别等功能。
 
 >开发环境：Windows 10（x64） + Python 3.6x + OpenCV 3.4.1
 
@@ -11,7 +11,7 @@ OpenCV for Python
 
 图片识别
 
-## 实现功能 ##
+## 功能实现 ##
 
 图片基础处理
 
