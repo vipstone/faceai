@@ -1,9 +1,12 @@
-# Tesseract Ocr
+# Tesseract Ocr文字识别
+
+Tesseract的OCR引擎最先由HP实验室于1985年开始研发，至1995年时已经成为OCR业内最准确的三款识别引擎之一。2005年，Tesseract由美国内华达州信息技术研究所获得，并求诸于Google对Tesseract进行改进、消除Bug、优化工作。Tesseract目前已作为开源项目发布在Google Project.
 
 运行环境：
 >windows10 + python 3.6 + tesseract 4.0.0-beta.1
 
 先看效果：
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/tesseractOcr2.png)
 ![](https://raw.githubusercontent.com/vipstone/faceai/master/res/tesseractOcr.png)
 
 一、安装python模块
@@ -49,3 +52,5 @@ cv2.imshow("Image", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+作为非常优秀的Ocr识别库，tesseract当然可以训练自己的数据模型，从而达到为我所用目的，后续文字会介绍如果训练自己的文字识别库。
