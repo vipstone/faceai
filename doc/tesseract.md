@@ -39,18 +39,12 @@ C:\Python36\Lib\site-packages\pytesseract\pytesseract.py
 ```
 from PIL import Image
 import pytesseract
-import cv2
 
 path = "img\\text-img.png"
 
 text = pytesseract.image_to_string(Image.open(path), lang='chi_sim')
 print(text)
 
-img = cv2.imread(path)
-cv2.imshow("Image", img)
-
-cv2.waitKey(0)
-cv2.destroyAllWindows()
 ```
 
 作为非常优秀的Ocr识别库，tesseract当然可以训练自己的数据模型，从而达到为我所用目的，后续文字会介绍如果训练自己的文字识别库。
