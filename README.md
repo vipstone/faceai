@@ -8,7 +8,7 @@
 
 下面罗列一下，相应模块使用到技术.
 
-人脸识别：OpenCV
+人脸识别：OpenCV / Dlib
 
 人脸检测：face_recognition
 
@@ -19,9 +19,13 @@
 
 [OpenCV环境搭建](doc/huanjingdajian.md)
 
-[图片人脸检测](doc/jiance.md)
+[图片人脸检测（OpenCV版）](doc/jiance.md)
 
-[视频人脸检测](doc/videojiance.md)
+[图片人脸检测（Dlib版）](doc/jiance-dlib.md)
+
+[视频人脸检测（OpenCV版）](doc/videojiance.md)
+
+
 
 ## 功能列举 ##
 
