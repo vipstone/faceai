@@ -2,7 +2,11 @@
 
 视频人脸检测是基于图片检测的基础上的，图片检测详情点击查看我的上一篇[《图片人脸检测》](https://github.com/vipstone/faceai/blob/master/doc/jiance.md) 。
 
-**实现思路：**调用电脑的摄像头，把摄像的信息逐帧分解成图片，基于图片检测标识出人脸的位置，把处理的图片逐帧绘制给用户，用户看到的效果就是视频的人脸检测。
+**实现思路：**
+调用电脑的摄像头，把摄像的信息逐帧分解成图片，基于图片检测标识出人脸的位置，把处理的图片逐帧绘制给用户，用户看到的效果就是视频的人脸检测。
+
+效果预览：
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif)
 
 ## 实现步骤 ##
 
