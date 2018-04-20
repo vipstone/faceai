@@ -19,7 +19,9 @@
 
 [OpenCV环境搭建](doc/huanjingdajian.md)
 
-[人脸检测](doc/jiance.md)
+[图片人脸检测](doc/jiance.md)
+
+[视频人脸检测](doc/videojiance.md)
 
 ## 功能列举 ##
 
