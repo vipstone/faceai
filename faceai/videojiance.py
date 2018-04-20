@@ -20,7 +20,7 @@ def discern(img):
 
 # 获取摄像头0表示第一个摄像头
 cap = cv2.VideoCapture(0)
-while (1):
+while (1):  # 逐帧显示
     ret, img = cap.read()
     # cv2.imshow("Image", img)
     discern(img)
