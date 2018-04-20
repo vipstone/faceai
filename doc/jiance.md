@@ -1,4 +1,4 @@
-# 人脸检测
+# 图片人脸检测
 
 人脸检测使用到的技术是OpenCV，上一节已经介绍了OpenCV的环境安装，[点击查看](https://github.com/vipstone/faceai/blob/master/doc/huanjingdajian.md).
 
@@ -11,7 +11,7 @@
 
 ## 技术实现思路 ##
 
-图片转换成灰色（去除色彩干扰，让图片识别更准确）
+图片转换成灰色（降低为一维的灰度，减低计算强度）
 
 图片上画矩形
 
@@ -97,3 +97,15 @@ c = cv2.waitKey(10)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+分类器classifier.detectMultiScale(gray, scaleFactor=1.2, minNeighbors=3, minSize=(32, 32))**参数说明**：
+
+gray：转换的灰图
+
+scaleFactor：图像缩放比例，可理解为相机的X倍镜
+
+minNeighbors：对特征检测点周边多少有效点同时检测，这样可避免因选取的特征检测点太小而导致遗漏
+
+minSize：特征检测点的最小尺寸
+
+
+

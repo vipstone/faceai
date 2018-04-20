@@ -1,4 +1,5 @@
 # coding=utf-8
+# OpenCV版本的图片检测
 import cv2
 
 filepath = "img/xingye-1.jpg"
