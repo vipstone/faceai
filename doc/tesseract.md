@@ -4,7 +4,7 @@
 >windows10 + python 3.6 + tesseract 4.0.0-beta.1
 
 先看效果：
-
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/tesseractOcr.png)
 
 一、安装python模块
 >pip3 install pytesseract
