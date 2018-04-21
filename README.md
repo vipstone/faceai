@@ -7,15 +7,15 @@
 
 ## 技术实现方案 ##
 
-下面列举一下，相应模块使用到技术.
+下面列举一下，相应模块使用到技术：
 
-人脸识别：OpenCV / Dlib
+	人脸识别：OpenCV / Dlib
 
-人脸检测：face_recognition
+	人脸检测：face_recognition
+	
+	视频识别：OpenCV + face_recognition
 
-视频识别：OpenCV + face_recognition
-
-文字识别：Tesseract OCR
+	文字识别：Tesseract OCR
 
 
 ## 教程文档 ##
