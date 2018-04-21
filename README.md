@@ -15,7 +15,7 @@
 
 视频识别：OpenCV + face_recognition
 
-文字识别：Tesseract Ocr
+文字识别：Tesseract OCR
 
 
 ## 教程文档 ##
@@ -30,8 +30,13 @@
 
 [视频人脸检测（Dlib版）](doc/videojiance-dlib.md)
 
-[Tesseract Ocr文字识别](doc/tesseract.md)
+[Tesseract OCR文字识别](doc/tesseract.md)
 
 
+## todo ##
+OpenCV识别模型的训练方法
 
+Dlib识别模型的训练方法
+
+Tesseract文字识别训练方法
 
