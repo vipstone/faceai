@@ -15,7 +15,7 @@
 
 视频识别：OpenCV + face_recognition
 
-Tesseract Ocr文字识别
+文字识别：Tesseract Ocr
 
 
 ## 教程文档 ##
