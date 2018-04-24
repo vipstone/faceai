@@ -35,9 +35,9 @@
 
 
 ## TODO ##
-OpenCV识别模型的训练方法
+OpenCV + Tesorflow模型的人脸识别
 
-Dlib识别模型的训练方法
+Dlib模型训练方法
 
-Tesseract文字识别训练方法
+Tesseract模型训练方法
 
