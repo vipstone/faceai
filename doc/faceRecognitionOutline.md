@@ -18,7 +18,7 @@
 此项，安装需要很长时间。
 
 ## 效果预览 ##
-
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png)
 
 
 ## 完整代码 ##

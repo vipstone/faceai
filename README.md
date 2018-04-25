@@ -37,6 +37,28 @@
 
 [视频人脸识别](doc/faceRecognition.md)
 
+## 功能预览 ##
+
+**绘制脸部轮廓**
+
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png)
+
+
+----------
+
+**视频人脸检测**
+
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif)
+
+
+----------
+
+**视频人脸识别**
+
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif)
+
+
+----------
 
 ## TODO ##
 
