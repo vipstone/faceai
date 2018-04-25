@@ -1,6 +1,6 @@
 # 图片人脸检测
 
-人脸检测使用到的技术是OpenCV，上一节已经介绍了OpenCV的环境安装，[点击查看](https://github.com/vipstone/faceai/blob/master/doc/huanjingdajian.md).
+人脸检测使用到的技术是OpenCV，上一节已经介绍了OpenCV的环境安装，[点击查看](https://github.com/vipstone/faceai/blob/master/doc/settingup.md).
 
 ## 功能展示 ##
 识别一种图上的所有人的脸，并且标出人脸的位置，画出人眼以及嘴的位置，展示效果图如下：

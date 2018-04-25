@@ -1,3 +1,5 @@
+#coding=utf-8
+#视频人脸检测类 - OpenCV版本
 import cv2
 
 

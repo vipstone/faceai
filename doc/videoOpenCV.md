@@ -1,6 +1,6 @@
 # 视频人脸检测（OpenCV版）
 
-视频人脸检测是图片人脸检测的高级版本，图片检测详情点击查看我的上一篇[《图片人脸检测（OpenCV版）》](https://github.com/vipstone/faceai/blob/master/doc/jiance.md) 。
+视频人脸检测是图片人脸检测的高级版本，图片检测详情点击查看我的上一篇[《图片人脸检测（OpenCV版）》](https://github.com/vipstone/faceai/blob/master/doc/detectionOpenCV.md) 。
 
 **实现思路：**
 调用电脑的摄像头，把摄像的信息逐帧分解成图片，基于图片检测标识出人脸的位置，把处理的图片逐帧绘制给用户，用户看到的效果就是视频的人脸检测。
@@ -35,7 +35,7 @@ cv2.waitKey(1) & 0xFF使用了“&”位元算法，含义是获取用户输入�
 
 **视频的人脸识别**
 
-这个时候，用到了上一节的[《图片人脸检测》](https://github.com/vipstone/faceai/blob/master/doc/jiance.md) 把人脸识别的代码封装成方法，代码如下：
+这个时候，用到了上一节的[《图片人脸检测（OpenCV版）》](https://github.com/vipstone/faceai/blob/master/doc/detectionOpenCV.md) 把人脸识别的代码封装成方法，代码如下：
 ```
 def discern(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

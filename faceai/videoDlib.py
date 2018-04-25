@@ -1,4 +1,5 @@
-# coding=utf-8
+#coding=utf-8
+#视频人脸检测类 - Dlib版本
 import cv2
 import dlib
 

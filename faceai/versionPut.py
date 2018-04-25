@@ -1,3 +1,5 @@
+#coding=utf-8
+#版本号输出类
 import cv2
 import dlib
 import face_recognition

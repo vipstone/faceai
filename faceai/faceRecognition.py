@@ -1,4 +1,5 @@
 #coding=utf-8
+#人脸识别类 - 使用face_recognition模块
 import cv2
 import face_recognition
 import os

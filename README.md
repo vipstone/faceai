@@ -21,17 +21,17 @@
 
 ## 教程文档 ##
 
-[OpenCV环境搭建](doc/huanjingdajian.md)
+[OpenCV环境搭建](doc/settingup.md)
 
-[图片人脸检测（OpenCV版）](doc/jiance.md)
+[图片人脸检测（OpenCV版）](doc/detectionOpenCV.md)
 
-[图片人脸检测（Dlib版）](doc/jiance-dlib.md)
+[图片人脸检测（Dlib版）](doc/detectionDlib.md)
 
-[视频人脸检测（OpenCV版）](doc/videojiance.md)
+[视频人脸检测（OpenCV版）](doc/videoOpenCV.md)
 
-[视频人脸检测（Dlib版）](doc/videojiance-dlib.md)
+[视频人脸检测（Dlib版）](doc/videoDlib.md)
 
-[Tesseract OCR文字识别](doc/tesseract.md)
+[Tesseract OCR文字识别](doc/tesseractOCR.md)
 
 
 ## TODO ##

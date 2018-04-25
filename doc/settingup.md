@@ -89,4 +89,4 @@ cv2.destroyAllWindows()
 
 ----------
 
-下一节：[人脸检测](jiance.md)
+下一节：[图片人脸检测（OpenCV版）](detectionOpenCV.md)

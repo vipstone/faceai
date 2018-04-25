@@ -1,6 +1,6 @@
 # 图片人脸检测（dlib版）
 
-本文为dlib版的图片人脸检测，区别于OpenCV版的人脸检测，点击[查看OpenCV版](https://github.com/vipstone/faceai/blob/master/doc/jiance.md)的。
+本文为dlib版的图片人脸检测，区别于OpenCV版的人脸检测，点击[查看OpenCV版](https://github.com/vipstone/faceai/blob/master/doc/detectionOpenCV.md)的。
 
 ## dlib与OpenCV对比 ##
 人脸识别进准度，dlib > OpenCV

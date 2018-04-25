@@ -1,12 +1,12 @@
 # 视频人脸检测（dlib版）
 
-视频人脸检测是图片识别的高级版本，图片检测详情点击查看我的上一篇[《图片人脸检测（dlib版）》](https://github.com/vipstone/faceai/blob/master/doc/jiance-dlib.md) 
+视频人脸检测是图片识别的高级版本，图片检测详情点击查看我的上一篇[《图片人脸检测（dlib版）》](https://github.com/vipstone/faceai/blob/master/doc/detectionDlib.md) 
 
 除了人脸识别用的是Dlib外，还是用OpenCV读取摄像头和处理图片（转为灰色），所以给出相关的文档，方便理解。
 
-[视频人脸检测（OpenCV版）](doc/videojiance.md)
+[视频人脸检测（OpenCV版）](doc/videoOpenCV.md)
 
-有了OpenCV的视频人脸检测，Dlib也大致相同除了视频识别器模型的声明和使用不同，具体的细节请参考，[视频人脸检测（OpenCV版）](doc/videojiance.md) 那篇已经讲的很细致了，在这就不具体叙述了。
+有了OpenCV的视频人脸检测，Dlib也大致相同除了视频识别器模型的声明和使用不同，具体的细节请参考，[视频人脸检测（OpenCV版）](doc/videoOpenCV.md) 那篇已经讲的很细致了，在这就不具体叙述了。
 
 完整的代码如下：
 ```
