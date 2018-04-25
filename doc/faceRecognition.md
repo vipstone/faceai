@@ -3,10 +3,10 @@
 人脸识别，需要使用face_recognition库做人脸对比，OpenCV获取摄像头数据。
 
 ## 环境 ##
--   Windows 10 
--   OpenCV 3.4.1
--   Dlib 19.8.1
--   face_recognition 1.2.2
++   Windows 10 
++   OpenCV 3.4.1
++   Dlib 19.8.1
++   face_recognition 1.2.2
 
 
 ## 环境安装 ##
@@ -23,6 +23,7 @@
 
 使用命令：
 >pip3 install face_recognition
+
 
 此项，安装需要很长时间。
 
