@@ -33,6 +33,8 @@
 
 [视频人脸检测（Dlib版）](doc/videoDlib.md)
 
+[绘制脸部轮廓](doc/faceRecognitionOutline.md)
+
 [视频人脸识别](doc/faceRecognition.md)
 
 
