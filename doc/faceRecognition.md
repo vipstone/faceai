@@ -25,6 +25,9 @@
 >pip3 install face_recognition
 
 
+## 效果预览 ##
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif)
+
 
 ## 完整代码 ##
 
