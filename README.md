@@ -62,6 +62,10 @@
 
 ----------
 
+**数字化妆**
+
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup.png)
+
 ## TODO ##
 
 OpenCV + Tesorflow模型的人脸识别

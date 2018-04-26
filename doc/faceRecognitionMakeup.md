@@ -19,7 +19,7 @@
 
 ## 效果预览 ##
 
-
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup.png)
 
 ## 完整代码 ##
 
