@@ -11,8 +11,15 @@ face_landmarks_list = face_recognition.face_landmarks(image)
 
 for face_landmarks in face_landmarks_list:
     facial_features = [
-        'chin', 'left_eyebrow', 'right_eyebrow', 'nose_bridge', 'nose_tip',
-        'left_eye', 'right_eye', 'top_lip', 'bottom_lip'
+        'chin',  # 下巴
+        'left_eyebrow',  # 左眉毛
+        'right_eyebrow',  # 右眉毛
+        'nose_bridge',  # 鼻樑
+        'nose_tip',  # 鼻尖
+        'left_eye',  # 左眼
+        'right_eye',  # 右眼
+        'top_lip',  # 上嘴唇
+        'bottom_lip'  # 下嘴唇
     ]
     pil_image = Image.fromarray(image)
     d = ImageDraw.Draw(pil_image)
