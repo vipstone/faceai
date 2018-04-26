@@ -35,6 +35,8 @@
 
 [绘制脸部轮廓](doc/faceRecognitionOutline.md)
 
+[数字化妆](doc/faceRecognitionMakeup.md)
+
 [视频人脸识别](doc/faceRecognition.md)
 
 ## 功能预览 ##
