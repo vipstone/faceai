@@ -48,6 +48,13 @@
 
 ----------
 
+**人脸68个关键点标识**
+
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/dlib68.png)
+
+
+----------
+
 **视频人脸检测**
 
 ![](https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif)

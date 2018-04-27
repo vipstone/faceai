@@ -1,9 +1,27 @@
 # 图片人脸检测（dlib版）
 
-本文为dlib版的图片人脸检测，区别于OpenCV版的人脸检测，点击[查看OpenCV版](https://github.com/vipstone/faceai/blob/master/doc/detectionOpenCV.md)的。
+上几篇给大家讲了OpenCV的图片人脸检测，而本文给大家带来的是比OpenCV更加精准的图片人脸检测Dlib库。
+
+点击查看往期：
+
+[《图片人脸检测（OpenCV版）》](https://github.com/vipstone/faceai/blob/master/doc/detectionOpenCV.md)
+
+[《视频人脸检测（OpenCV版）》](https://github.com/vipstone/faceai/blob/master/doc/videoOpenCV.md)
 
 ## dlib与OpenCV对比 ##
-人脸识别进准度，dlib > OpenCV
+
+识别精准度：Dlib >= OpenCV
+
+Dlib更多的人脸识别模型，可以检测脸部68甚至更多的特征点
+
+## 效果展示 ##
+
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/dlib68.png)
+
+人脸的68个特征点
+
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/68.jpg)
+
 
 ## 安装dlib ##
 
