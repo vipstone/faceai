@@ -5,11 +5,17 @@
 **开发环境**
 
 >Windows 10（x64）
+>
 >Python 3.6.4
+>
 >OpenCV 3.4.1
+>
 >Dlib 19.8.1
+>
 >face_recognition 1.2.2
+>
 >Tesseract OCR 4.0.0-beta.1
+>
 
 ## 技术实现方案 ##
 
