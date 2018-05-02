@@ -79,6 +79,7 @@
 ----------
 
 **视频人脸检测**
+
 ![](https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif)
 
 ----------
