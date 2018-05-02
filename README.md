@@ -39,11 +39,20 @@
 
 [视频人脸识别](doc/faceRecognition.md)
 
+头像特效
+
 ## 功能预览 ##
 
 **绘制脸部轮廓**
 
 ![](https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png)
+
+
+----------
+
+**头像特效合成**
+
+![](http://icdn.apigo.cn/compose.png)
 
 
 ----------
