@@ -1,5 +1,20 @@
+# 头像特效合成
+
+实现思路：使用OpenCV检测出头部位置，向上移动20像素添加虚拟帽子，帽子的宽度等于脸的大小，高度等比缩小，需要注意的是如果高度小于脸部向上移动20像素的值，那么帽子的高度就等于最小高度=（脸部位置-20）。
+为什么是20而不是30或者40，因为取得是检测的脸部和头顶的一般距离20，开发者可自己调整。
+
+
+**注意事项**
+
+图片合成元件，要是黑背景图片，透明的图片也会有问题，在ps手动处理一下透明图片，添加新图层，选中alt+d添加黑背景，把新图层层级放到最底部即可。
+
+# 效果图预览 #
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/compose.png" width = "200" height = "300" alt="头像特效合成"  />
+
+
+## 代码实现 ##
+```
 #coding=utf-8
-#头像特效合成
 import cv2
 
 # OpenCV人脸识别分类器
@@ -47,7 +62,5 @@ if len(faceRects):  # 大于0则检测到人脸
 cv2.imshow("image", img) 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
-
+```
 

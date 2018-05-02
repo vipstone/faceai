@@ -2,13 +2,18 @@
 
 一款优秀的人脸检测、人脸识别、视频识别、文字识别等智能AI项目。
 
->开发环境：Windows 10（x64） + Python 3
->
->其他库版本：OpenCV 3.4.1、Dlib 19.8.1、face_recognition 1.2.2、Tesseract OCR 4.0.0-beta.1
+**开发环境**
+
+>Windows 10（x64）
+>Python 3.6.4
+>OpenCV 3.4.1
+>Dlib 19.8.1
+>face_recognition 1.2.2
+>Tesseract OCR 4.0.0-beta.1
 
 ## 技术实现方案 ##
 
-下面列举一下，相应模块使用到技术
+相应技术使用模块
 
 	人脸识别：OpenCV / Dlib
 
@@ -33,13 +38,13 @@
 
 [视频人脸检测（Dlib版）](doc/videoDlib.md)
 
-[绘制脸部轮廓](doc/faceRecognitionOutline.md)
+[脸部轮廓绘制](doc/faceRecognitionOutline.md)
 
 [数字化妆](doc/faceRecognitionMakeup.md)
 
 [视频人脸识别](doc/faceRecognition.md)
 
-头像特效
+[头像特效合成](doc/compose.md)
 
 ## 功能预览 ##
 
@@ -57,13 +62,13 @@
 
 **头像特效合成**
 
-<img src="http://icdn.apigo.cn/compose-1.png" width = "200" height = "300" alt="头像特效合成"  />
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/compose.png" width = "200" height = "300" alt="头像特效合成"  />
 
 ----------
 
 **数字化妆**
 
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup.png" width = "260" height = "300" alt="视频人脸识别"  />
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup.png" width = "230" height = "300" alt="视频人脸识别"  />
 
 ----------
 
