@@ -52,7 +52,7 @@
 
 **头像特效合成**
 
-![](http://icdn.apigo.cn/compose.png)
+![](http://icdn.apigo.cn/compose-1.png)
 
 
 ----------
