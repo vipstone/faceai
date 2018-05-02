@@ -45,42 +45,39 @@
 
 **绘制脸部轮廓**
 
-![](https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png)
-
-
-----------
-
-**头像特效合成**
-
-![](http://icdn.apigo.cn/compose-1.png)
-
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/face_recognition-outline.png" width = "250" height = "300" alt="绘制脸部轮廓" />
 
 ----------
 
 **人脸68个关键点标识**
 
-![](https://raw.githubusercontent.com/vipstone/faceai/master/res/dlib68.png)
-
-
-----------
-
-**视频人脸检测**
-
-![](https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif)
-
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/dlib68.png" width = "230" height = "300" alt="人脸68个关键点标识" />
 
 ----------
 
-**视频人脸识别**
+**头像特效合成**
 
-![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif)
-
+<img src="http://icdn.apigo.cn/compose-1.png" width = "200" height = "300" alt="头像特效合成"  />
 
 ----------
 
 **数字化妆**
 
-![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup.png)
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup.png" width = "260" height = "300" alt="视频人脸识别"  />
+
+----------
+
+**视频人脸检测**
+
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif" width = "300" height = "200" alt="视频人脸检测"  />
+
+----------
+
+**视频人脸识别**
+
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif" width = "300" height = "200" alt="视频人脸识别"  />
+
+
 
 ## TODO ##
 
