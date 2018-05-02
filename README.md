@@ -79,14 +79,13 @@
 ----------
 
 **视频人脸检测**
-
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif" width = "300" height = "200" alt="视频人脸检测"  />
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/video-jiance.gif)
 
 ----------
 
 **视频人脸识别**
 
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif" width = "300" height = "200" alt="视频人脸识别"  />
+![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif)
 
 
 
