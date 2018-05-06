@@ -34,6 +34,8 @@
 
 [OpenCV环境搭建](doc/settingup.md)
 
+[OpenCV图片添加中文](doc/chinese.md)
+
 [Tesseract OCR文字识别](doc/tesseractOCR.md)
 
 [图片人脸检测（OpenCV版）](doc/detectionOpenCV.md)
