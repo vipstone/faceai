@@ -25,16 +25,15 @@
 
 	人脸检测：face_recognition
 	
-	视频识别：OpenCV + face_recognition
+	性别识别：keras + tensorflow
 
 	文字识别：Tesseract OCR
+
 
 
 ## 教程文档 ##
 
 [OpenCV环境搭建](doc/settingup.md)
-
-[OpenCV添加中文](doc/chinese.md)
 
 [Tesseract OCR文字识别](doc/tesseractOCR.md)
 
@@ -54,9 +53,13 @@
 
 [头像特效合成](doc/compose.md)
 
+性别识别
+
 ## 其他相关 ##
 
 [pip/pip3更换国内源](doc/pipChange.md)
+
+[OpenCV添加中文](doc/chinese.md)
 
 
 ## 功能预览 ##
