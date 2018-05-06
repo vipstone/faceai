@@ -113,8 +113,6 @@
 
 眼睛移动方向检测
 
-性别检测
-
 OpenCV + Tensorflow模型的人脸识别
 
 Dlib性能优化方案
