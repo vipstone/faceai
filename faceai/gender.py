@@ -1,5 +1,5 @@
 #coding=utf-8
-#表情识别
+#性别识别
 
 import cv2
 from keras.models import load_model

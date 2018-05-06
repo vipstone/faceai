@@ -53,9 +53,9 @@
 
 [头像特效合成](doc/compose.md)
 
-性别识别
+[性别识别](doc/gender.md)
 
-## 其他相关 ##
+## 相关文档 ##
 
 [pip/pip3更换国内源](doc/pipChange.md)
 
@@ -81,6 +81,13 @@
 <img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/compose.png" width = "200" height = "300" alt="头像特效合成"  />
 
 ----------
+
+**性别识别**
+
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/gender.png" width = "400" height = "220" alt="性别识别"  />
+
+----------
+
 
 **数字化妆**
 
