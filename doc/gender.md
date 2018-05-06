@@ -11,7 +11,7 @@
 
 # 效果展示 #
 
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/gender.png" width = "400" height = "220" alt="性别识别"  />
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/gender.png" width = "430" height = "220" alt="性别识别"  />
 
 # 准备工作 #
 在开始之前先要安装keras和tensorflow，在安装模块之前先要把pip的数据源换成国内的，这样能大大提高安装速度。

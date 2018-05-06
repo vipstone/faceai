@@ -84,7 +84,7 @@
 
 **性别识别**
 
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/gender.png" width = "400" height = "220" alt="性别识别"  />
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/gender.png" width = "430" height = "220" alt="性别识别"  />
 
 ----------
 
