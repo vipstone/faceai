@@ -14,8 +14,11 @@
 >
 >face_recognition 1.2.2
 >
->Tesseract OCR 4.0.0-beta.1
+>keras 2.1.6
 >
+>tensorflow 1.8.0
+>
+>Tesseract OCR 4.0.0-beta.1
 
 ## 技术实现方案 ##
 
