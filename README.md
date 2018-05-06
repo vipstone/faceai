@@ -1,4 +1,4 @@
-# FaceAI
+# FaceAI #
 
 一款优秀的人脸、视频、文字：检测、识别的智能AI项目。
 
@@ -53,6 +53,11 @@
 [视频人脸识别](doc/faceRecognition.md)
 
 [头像特效合成](doc/compose.md)
+
+## 其他相关 ##
+
+[pip/pip3更换国内源](doc/pipChange.md)
+
 
 ## 功能预览 ##
 
