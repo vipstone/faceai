@@ -118,8 +118,6 @@
 
 ### TODO ###
 
-笑脸检测
-
 眼睛移动方向检测
 
 OpenCV + Tensorflow模型的人脸识别
