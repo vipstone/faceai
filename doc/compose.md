@@ -6,7 +6,7 @@
 
 **注意事项**
 
-图片合成元件，要是黑背景图片，透明的图片也会有问题，在ps手动处理一下透明图片，添加新图层，选中alt+d添加黑背景，把新图层层级放到最底部即可。
+图片合成元件，要是黑背景图片，透明的图片也会有问题，在ps手动处理一下透明图片，添加新图层，选中alt+Del添加黑背景，把新图层层级放到最底部即可。
 
 # 效果图预览 #
 <img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/compose.png" width = "200" height = "300" alt="头像特效合成"  />
