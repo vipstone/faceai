@@ -8,7 +8,7 @@
 1. 表情识别（生气、厌恶、恐惧、开心、难过、惊喜、平静等七种情绪）
 
 
-**开发环境**
+# 开发环境 #
 
 >Windows 10（x64）
 >
@@ -27,7 +27,7 @@
 >Tesseract OCR 4.0.0-beta.1
 
 
-## 教程文档 ##
+# 教程文档 #
 
 [OpenCV环境搭建](doc/settingup.md)
 
@@ -53,14 +53,14 @@
 
 表情识别（生气、厌恶、恐惧、开心、难过、惊喜、平静等七种情绪）
 
-## 相关文档 ##
+# 相关文档 #
 
 [pip/pip3更换国内源](doc/pipChange.md)
 
 [OpenCV添加中文](doc/chinese.md)
 
 
-## 功能预览 ##
+# 功能预览 #
 
 **绘制脸部轮廓**
 
@@ -104,7 +104,7 @@
 ![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif)
 
 
-## 技术方案 ##
+# 技术方案 #
 
 技术实现方案介绍
 
@@ -117,7 +117,7 @@
 	文字识别：Tesseract OCR
 
 
-## TODO ##
+### TODO ###
 
 笑脸检测
 
