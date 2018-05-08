@@ -81,8 +81,10 @@
 ----------
 
 **表情识别**
+
 <img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/emotion.png" width = "250" height = "300" alt="表情识别"  />
 
+----------
 
 **数字化妆**
 
