@@ -4,7 +4,7 @@
 import cv2
 from keras.models import load_model
 import numpy as np
-import ChineseText
+import chineseText
 
 img = cv2.imread("img/gather.png")
 face_classifier = cv2.CascadeClassifier(
@@ -27,7 +27,7 @@ for (x, y, w, h) in faces:
     gender_label_arg = np.argmax(gender_classifier.predict(face))
     gender = gender_labels[gender_label_arg]
     cv2.rectangle(img, (x, y), (x + h, y + w), color, 2)
-    img = ChineseText.cv2ImgAddText(img, gender, x + h, y, color, 30)
+    img = chineseText.cv2ImgAddText(img, gender, x + h, y, color, 30)
 
 cv2.imshow("Image", img)
 cv2.waitKey(0)
