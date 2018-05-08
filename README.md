@@ -26,19 +26,6 @@
 >
 >Tesseract OCR 4.0.0-beta.1
 
-## 技术实现方案 ##
-
-相应技术使用模块
-
-	人脸识别：OpenCV / Dlib
-
-	人脸检测：face_recognition
-	
-	性别识别：keras + tensorflow
-
-	文字识别：Tesseract OCR
-
-
 
 ## 教程文档 ##
 
@@ -63,6 +50,8 @@
 [头像特效合成](doc/compose.md)
 
 [性别识别](doc/gender.md)
+
+表情识别（生气、厌恶、恐惧、开心、难过、惊喜、平静等七种情绪）
 
 ## 相关文档 ##
 
@@ -114,6 +103,18 @@
 
 ![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif)
 
+
+## 技术方案 ##
+
+技术实现方案介绍
+
+	人脸识别：OpenCV / Dlib
+
+	人脸检测：face_recognition
+	
+	性别识别：keras + tensorflow
+
+	文字识别：Tesseract OCR
 
 
 ## TODO ##
