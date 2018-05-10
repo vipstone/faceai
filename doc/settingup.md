@@ -23,14 +23,19 @@ numpy：是一个定义了数值数组和矩阵类型和它们的基本运算的
 whl是一个python的压缩包，其中包含了py文件以及经过编译的pyd文件。
 
 **whl安装命令**
-> pip install 存放路径\xxx.whl
+> pip3 install 存放路径\xxx.whl
 
 回到主题，我们是要安装numpy模块的。
 
-首先去网站下载对应的numpy版本，下载地址：https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy 本人是64为系统python3.6所以对应的最新版本是：numpy‑1.14.2+mkl‑cp36‑cp36m‑win_amd64.whl，点击下载到D:根目录。
+第一步：先去网站下载对应的numpy版本，下载地址：https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy 本人是64为系统python3.6所以对应的最新版本是：numpy‑1.14.2+mkl‑cp36‑cp36m‑win_amd64.whl，点击下载到D:根目录。
 
-第2步，启动命令窗体运行
-> pip install d:\numpy‑1.14.2+mkl‑cp36‑cp36m‑win_amd64.whl
+百度云链接：https://pan.baidu.com/s/10RefansrC4_0zsNehjyKTg
+
+提取密码：gua3
+
+
+第2步：启动命令窗体运行
+> pip3 install d:\numpy‑1.14.2+mkl‑cp36‑cp36m‑win_amd64.whl
 
 命令窗体显示：
 
@@ -44,10 +49,16 @@ Successfully installed numpy-1.14.2+mkl
 
 
 ### 三、安装OpenCV ###
-同样安装OpenCV模块和numpy方式类似，实现去网站下载OpenCV对于的.whl版本压缩包，网址：https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv 本人下载的版本是：opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl 64位系统对应python3.6的，下载到d盘根目录。
+同样安装OpenCV模块和numpy方式类似。
 
-第2步，启动命令窗体运行
-> pip install d:\opencv_python-3.4.1-cp36-cp36m-win_amd64.whl
+第1步：实现去网站下载OpenCV对于的.whl版本压缩包，网址：https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv 本人下载的版本是：opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl 64位系统对应python3.6的，下载到d盘根目录。
+
+百度云链接：https://pan.baidu.com/s/10RefansrC4_0zsNehjyKTg
+
+提取密码：gua3
+
+第2步：启动命令窗体运行
+> pip3 install d:\opencv_python-3.4.1-cp36-cp36m-win_amd64.whl
 
 窗体显示：
 
