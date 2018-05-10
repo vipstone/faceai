@@ -68,16 +68,16 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # cv2.destroyAllWindows()
 
 img = cv2.imread(path, 0)
-img = cv2.medianBlur(img, 5)
+img = cv2.medianBlur(img, 3)
 cimg = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
 
 circles = cv2.HoughCircles(
     img,
     cv2.HOUGH_GRADIENT,
     1,
-    20,
-    param1=50,
-    param2=30,
+    50,
+    param1=50 / 5,
+    param2=30 / 5,
     minRadius=0,
     maxRadius=0)
 

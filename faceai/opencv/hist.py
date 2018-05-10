@@ -89,27 +89,27 @@ plt.rcParams['font.sans-serif'] = ['SimHei']  #用来正常显示中文标签
 # cv2.imshow("image", img)
 
 # #滤波器
-# img = cv2.imread("img/black-noise.png")
+img = cv2.imread("img/black-noise.png")
 
-# dst = cv2.blur(img, (5, 5))  #均值滤波
-# gaussian = cv2.GaussianBlur(img, (5, 5), 1)  #高斯滤波
-# median = cv2.medianBlur(img, 5)  #中值滤波
-# cv2.imshow("image", median)
+dst = cv2.blur(img, (5, 5))  #均值滤波
+gaussian = cv2.GaussianBlur(img, (5, 5), 1)  #高斯滤波
+median = cv2.medianBlur(img, 5)  #中值滤波
+cv2.imshow("image", gaussian)
 
-#Sobel算子 —— 是一种带有方向性的滤波器
-img = cv2.imread('img/ag.png', cv2.IMREAD_COLOR)
-x = cv2.Sobel(
-    img, cv2.CV_16S, 1, 0
-)  #cv2.CV_16S -- Sobel 函数求完导数后会有负值和大于255的值，而原图像是uint8（8位无符号数据），所以在建立图像时长度不够，会被截断，所以使用16位有符号数据
-y = cv2.Sobel(img, cv2.CV_16S, 0, 1)
-absx = cv2.convertScaleAbs(
-    x)  #convertScaleAbs() --  转回uint8形式，否则将无法显示图像，而只是一副灰色图像
-absy = cv2.convertScaleAbs(y)
-dist = cv2.addWeighted(absx, 0.5, absy, 0.5, 0)  #参数2：第1张图的权重；参数4：第2张图的权重
-# cv2.imshow('y', absy)
-# cv2.imshow('x', absx)
-cv2.imshow('dsit', dist)
-cv2.imshow('img', img)
+# #Sobel算子 —— 是一种带有方向性的滤波器
+# img = cv2.imread('img/ag.png', cv2.IMREAD_COLOR)
+# x = cv2.Sobel(
+#     img, cv2.CV_16S, 1, 0
+# )  #cv2.CV_16S -- Sobel 函数求完导数后会有负值和大于255的值，而原图像是uint8（8位无符号数据），所以在建立图像时长度不够，会被截断，所以使用16位有符号数据
+# y = cv2.Sobel(img, cv2.CV_16S, 0, 1)
+# absx = cv2.convertScaleAbs(
+#     x)  #convertScaleAbs() --  转回uint8形式，否则将无法显示图像，而只是一副灰色图像
+# absy = cv2.convertScaleAbs(y)
+# dist = cv2.addWeighted(absx, 0.5, absy, 0.5, 0)  #参数2：第1张图的权重；参数4：第2张图的权重
+# # cv2.imshow('y', absy)
+# # cv2.imshow('x', absx)
+# cv2.imshow('dsit', dist)
+# cv2.imshow('img', img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
