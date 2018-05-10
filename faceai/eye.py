@@ -6,9 +6,9 @@ import cv2
 import dlib
 import numpy as np
 
-path = "img/eye.png"
-# img = cv2.imread(path)
-# gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+path = "img/eye-2.png"
+img = cv2.imread(path)
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # detector = dlib.get_frontal_face_detector()
 # predictor = dlib.shape_predictor(
@@ -34,9 +34,10 @@ path = "img/eye.png"
 # if len(faceRects):
 #     for faceRect in faceRects:
 #         x, y, w, h = faceRect
-# cv2.rectangle(img, (x, y), (x + h, y + w), (255, 0, 0), 2)
+#         cv2.rectangle(img, (x, y), (x + h, y + w), (255, 0, 0), 2)
+#         rightEyeImg = gray[(y):(y + h), (x):(x + w)]
 
-# rightEyeImg = gray[(y):(y + h), (x):(x + w)]
+# cv2.imshow('img', rightEyeImg)
 
 # eyeImg = img[(y):(y + h), (x):(x + w)]
 # eyeImg = cv2.medianBlur(eyeImg, 5)
@@ -74,9 +75,9 @@ circles = cv2.HoughCircles(
     img,
     cv2.HOUGH_GRADIENT,
     1,
-    100,
-    param1=50 / 5,
-    param2=30 / 5,
+    20,
+    param1=50,
+    param2=30,
     minRadius=0,
     maxRadius=0)
 
@@ -87,6 +88,6 @@ for i in circles[0, :]:
     # draw the center of the circle
     cv2.circle(cimg, (i[0], i[1]), 2, (0, 0, 255), 3)
 
-cv2.imshow('detected circles', img)
+cv2.imshow('detected circles', cimg)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
