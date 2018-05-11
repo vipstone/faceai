@@ -45,7 +45,7 @@
 
 [性别识别](doc/gender.md)
 
-表情识别（生气、厌恶、恐惧、开心、难过、惊喜、平静等七种情绪）
+表情识别
 
 # 相关文档 #
 
@@ -88,7 +88,7 @@
 
 **数字化妆**
 
-<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup.png" width = "230" height = "300" alt="视频人脸识别"  />
+<img src="https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognitionMakeup-1.png" width = "450" height = "300" alt="视频人脸识别"  />
 
 ----------
 
