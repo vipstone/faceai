@@ -30,8 +30,14 @@ counter = 1
 
 #获取眼球中心
 def houghCircles(path, counter):
-    img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
+    img = cv2.imread(path, 0)
     # img = cv2.medianBlur(img, 5)
+
+    x = cv2.Sobel(img, -1, 1, 0, ksize=3)
+    y = cv2.Sobel(img, -1, 0, 1, ksize=3)
+    absx = cv2.convertScaleAbs(x)
+    absy = cv2.convertScaleAbs(y)
+    img = cv2.addWeighted(absx, 0.5, absy, 0.5, 0)
 
     # ycrcb = cv2.cvtColor(img, cv2.COLOR_BGR2YCR_CB)
     # channels = cv2.split(ycrcb)
@@ -40,6 +46,7 @@ def houghCircles(path, counter):
     # cv2.cvtColor(ycrcb, cv2.COLOR_YCR_CB2BGR, img)
 
     # img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
     cimg = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
 
     # cv2.imshow("img2", img)
@@ -50,9 +57,9 @@ def houghCircles(path, counter):
         cv2.HOUGH_GRADIENT,
         1,
         50,
-        param1=50 / 2,
-        param2=30 / 2,
-        minRadius=0,
+        param1=50,
+        param2=10,
+        minRadius=2,
         maxRadius=0)
 
     circles = np.uint16(np.around(circles))
@@ -62,7 +69,7 @@ def houghCircles(path, counter):
         # draw the center of the circle
         cv2.circle(cimg, (i[0], i[1]), 2, (0, 0, 255), 2)
     # cv2.imshow("img" + str(counter), cimg)
-    return (i[0], i[1])
+    return (i[0] + 3, i[1] + 3)
 
 
 #彩色直方图均衡化
@@ -83,22 +90,22 @@ classifier = cv2.CascadeClassifier(
 def discern(img, counter):
     grayImg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     color = (0, 255, 0)
-    # 调用识别人脸
     faceRects = classifier.detectMultiScale(
         grayImg, scaleFactor=1.2, minNeighbors=3, minSize=(58, 58))
     if len(faceRects):
         for faceRect in faceRects:
             x, y, w, h = faceRect
             rightEyeImg = img[(y):(y + h), (x):(x + w)]
-            cv2.rectangle(img, (x, y), (x + h, y + w), color, 2)
-
-            cv2.imwrite("img/temp.png", hist(rightEyeImg))
+            # cv2.rectangle(img, (x, y), (x + h, y + w), color, 2)
+            rightEyeImg = cv2.GaussianBlur(rightEyeImg, (5, 5), 1)
+            # rightEyeImg = hist(rightEyeImg)
+            cv2.imwrite("img/temp.png", rightEyeImg)
+            # cv2.imwrite("img/temp.png", rightEyeImg)
             circleCenter = houghCircles("img/temp.png", counter)  #(x,y)
             cv2.circle(img, (x + circleCenter[0], y + circleCenter[1]), 2,
-                       (0, 0, 255), 2)
+                       (128, 0, 0), 2)
             counter += 1
-
-    cv2.imshow("image", img)  # 显示图像
+        cv2.imshow("image", img)
 
 
 # path = "img/ag-3.png"
@@ -116,18 +123,18 @@ def discern(img, counter):
 #         counter += 1
 #         # cv2.imshow("img", houghCircles("img/temp.png"))
 
-path = "img/ag-3.png"
+path = "img/ag.png"
 img = cv2.imread(path)
 discern(img, counter)
 
-cap = cv2.VideoCapture(0)
-while (1):
-    ret, frame = cap.read()
+# cap = cv2.VideoCapture(0)
+# while (1):
+#     ret, frame = cap.read()
 
-    # cv2.imshow('frame', gray)
-    discern(frame, counter)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+#     # cv2.imshow('frame', gray)
+#     discern(frame, counter)
+#     if cv2.waitKey(1) & 0xFF == ord('q'):
+#         break
 
 #
 
@@ -177,5 +184,6 @@ while (1):
 # time.sleep(1)
 
 # cv2.imshow('detected circles', cimg)
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
