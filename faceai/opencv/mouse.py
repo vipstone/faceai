@@ -4,23 +4,7 @@
 import cv2
 import numpy as np
 
-
-def draw_circle(event, x, y, flags, param):
-    # print(event)
-    # print("cv2.EVENT_FLAG_ALTKEY:" + str(cv2.EVENT_FLAG_ALTKEY))
-    if event == cv2.EVENT_MBUTTONDOWN:
-        cv2.circle(img, (x, y), 20, (255, 0, 0), -1)
-
-
-img = np.zeros((512, 512, 3), np.uint8)
-cv2.namedWindow('image')
-cv2.setMouseCallback('image', draw_circle)
-
-while (1):
-    cv2.imshow('image', img)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
+# **************** 1 ****************
 # for i in dir(cv2):
 #     if 'EVENT' in i:
 #         print(i)
@@ -44,6 +28,43 @@ EVENT_RBUTTONDOWN #右键按下
 EVENT_RBUTTONUP #右键抬起
 '''
 
-# cv2.waitKey(0)
+# # **************** 2 ****************
+# def draw_circle(event, x, y, flags, param):
+#     if event == cv2.EVENT_MBUTTONDOWN:
+#         cv2.circle(img, (x, y), 20, (255, 0, 0), -1)
+
+# img = np.zeros((512, 512, 3), np.uint8)
+# cv2.namedWindow('image')
+# cv2.setMouseCallback('image', draw_circle)
+
+# while (1):
+#     cv2.imshow('image', img)
+#     if cv2.waitKey(1) & 0xFF == ord('q'):
+#         break
+
+# **************** 3 happy的自由绘图 ****************
+drawing = False
+
+
+def drawDef(event, x, y, flags, param):
+    global drawing
+
+    if event == cv2.EVENT_LBUTTONDOWN:
+        drawing = True
+    if event == cv2.EVENT_LBUTTONUP:
+        drawing = False
+
+    if event == cv2.EVENT_MOUSEMOVE and drawing == True:
+        cv2.circle(img, (x, y), 10, (255, 0, 0), -1)
+
+
+img = np.zeros((512, 512, 3), np.uint8)
+cv2.namedWindow('image')
+cv2.setMouseCallback('image', drawDef)
+
+while (1):
+    cv2.imshow('image', img)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
 
 cv2.destroyAllWindows()
