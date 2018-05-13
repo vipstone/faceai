@@ -56,6 +56,8 @@
 
 [OpenCV添加中文](doc/chinese.md)
 
+[使用鼠标绘图——OpenCV](https://github.com/vipstone/faceai/blob/master/doc/opencv/mouse.md)
+
 
 # 功能预览 #
 
