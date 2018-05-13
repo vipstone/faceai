@@ -1,4 +1,4 @@
-# OpenCV使用鼠标画图 #
+# 使用鼠标画图——OpenCV #
 OpenCV可以使用cv2.setMouseCallback()进行简单的鼠标绘图。
 
 # 简单示例 #
