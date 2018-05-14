@@ -52,7 +52,9 @@
 
 # 相关文档 #
 
-[pip/pip3更换国内源](doc/pipChange.md)
+[Ubuntu apt-get和pip源更换](doc/ubuntuChange.md)
+
+[pip/pip3更换国内源——Windows版](doc/pipChange.md)
 
 [OpenCV添加中文](doc/chinese.md)
 
