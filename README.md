@@ -8,6 +8,7 @@
 1. 表情识别（生气、厌恶、恐惧、开心、难过、惊喜、平静等七种情绪）
 2. 眼动追踪（待完善）
 3. 换脸（待实现）
+4. 视频对象提取
 
 **查看功能预览↓↓↓**
 
@@ -48,6 +49,8 @@
 [性别识别](doc/gender.md)
 
 [表情识别](doc/emotion.md)
+
+视频对象提取
 
 眼动追踪
 
@@ -110,6 +113,13 @@
 
 ![](https://raw.githubusercontent.com/vipstone/faceai/master/res/faceRecognition.gif)
 
+----------
+
+**视频人脸识别**
+
+![](http://icdn.apigo.cn/opencv-hsv.gif)
+
+----------
 
 # 技术方案 #
 
