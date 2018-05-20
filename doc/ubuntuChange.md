@@ -42,3 +42,20 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 
 
 
+# 修改默认python版本号 #
+
+我们也可以把Ubuntu的默认python版本号进行修改，步骤如下：
+
+1、删除原有Python连接文件
+
+>sudo rm /usr/bin/python
+
+2、切换成root账户，建立指向Python3的连接
+
+切换root账户：sudo -s
+
+建立执行Python3的连接
+
+>ln -s /usr/bin/python3.6 /user/bin/python
+
+以上操作就是完成默认Python版本号设置，使用：python -V查看默认版本号.
