@@ -56,6 +56,6 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 
 建立执行Python3的连接
 
->ln -s /usr/bin/python3.6 /user/bin/python
+>ln -s /usr/bin/python3.6 /usr/bin/python
 
 以上操作就是完成默认Python版本号设置，使用：python -V查看默认版本号.
