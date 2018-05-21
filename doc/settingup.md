@@ -137,3 +137,14 @@
 	cv2.__version__
 	```
 	正常输入版本号，证明已经安装成功。
+
+# 常见错误 #
+
+错误一、python3: Relink `/lib/x86_64-linux-gnu/libudev.so.1` with `/lib/x86_64-linux-gnu/librt.so.1` for IFUNC symbol `clock_gettime`
+Segmentation fault (core dumped)
+
+解决方案：apt install python3-opencv
+
+
+----------
+
