@@ -1,6 +1,8 @@
-#coding=utf-8
-#HSV转换（颜色提取）
+# 视频对象提取 #
 
+
+
+```
 import cv2
 import numpy as np
 
@@ -31,3 +33,4 @@ while (1):
         break
 
 cv2.destroyAllWindows()
+```
