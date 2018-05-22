@@ -124,6 +124,19 @@
 
 ----------
 
+**图片修复**
+
+![](http://icdn.apigo.cn/inpaint-faceai.png
+)
+
+----------
+
+**图片自动上色**
+
+![](http://icdn.apigo.cn/colorize-faceai.png)
+
+----------
+
 # 技术方案 #
 
 技术实现方案介绍
