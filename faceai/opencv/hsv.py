@@ -21,7 +21,9 @@ while (1):
 
     mask = cv2.inRange(hsv, np.array(lowerHSV), np.array(upperHSV))
 
+    #使用位“与运算”提取颜色部分
     res = cv2.bitwise_and(frame, frame, mask=mask)
+    #使用高斯模式优化图片
     res = cv2.GaussianBlur(res, (5, 5), 1)
 
     cv2.imshow('frame', frame)
