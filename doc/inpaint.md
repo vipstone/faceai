@@ -48,3 +48,5 @@ cv2.imshow("newImage", specular)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+图片扩展与腐蚀更多资料：[http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html](http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html)
