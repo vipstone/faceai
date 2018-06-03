@@ -54,7 +54,7 @@
 
 [视频对象提取](https://github.com/vipstone/faceai/blob/master/doc/hsv-opencv.md)
 
-图片修复
+[图片修复](https://github.com/vipstone/faceai/blob/master/doc/inpaint.md)
 
 
 # 其他教程 #
@@ -126,8 +126,7 @@
 
 **图片修复**
 
-![](http://icdn.apigo.cn/inpaint-faceai.png
-)
+![](http://icdn.apigo.cn/inpaint.png?1)
 
 ----------
 
