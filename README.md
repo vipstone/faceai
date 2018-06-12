@@ -126,7 +126,7 @@
 
 **图片修复**
 
-![](http://icdn.apigo.cn/inpaint.png?1)
+![](http://icdn.apigo.cn/inpaint.png?2)
 
 ----------
 
