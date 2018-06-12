@@ -24,5 +24,5 @@ for face_landmarks in face_landmarks_list:
     pil_image = Image.fromarray(image)
     d = ImageDraw.Draw(pil_image)
     for facial_feature in facial_features:
-        d.line(face_landmarks[facial_feature], fill=(255, 255, 255), width=3)
+        d.line(face_landmarks[facial_feature], fill=(255, 255, 255), width=2)
     pil_image.show()
