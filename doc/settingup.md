@@ -51,7 +51,7 @@ Successfully installed numpy-1.14.2+mkl
 ### 三、安装OpenCV ###
 同样安装OpenCV模块和numpy方式类似。
 
-第1步：实现去网站下载OpenCV对于的.whl版本压缩包，网址：https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv 本人下载的版本是：opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl 64位系统对应python3.6的，下载到d盘根目录。
+第1步：首先去网站下载OpenCV对于的.whl版本压缩包，网址：https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv 本人下载的版本是：opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl 64位系统对应python3.6的，下载到d盘根目录。
 
 百度云链接：https://pan.baidu.com/s/10RefansrC4_0zsNehjyKTg
 
