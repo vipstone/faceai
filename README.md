@@ -141,11 +141,11 @@
 技术实现方案介绍
 
 	人脸识别：OpenCV / Dlib
-
+	
 	人脸检测：face_recognition
 	
 	性别识别：keras + tensorflow
-
+	
 	文字识别：Tesseract OCR
 
 
@@ -163,3 +163,8 @@ Tesseract模型训练方法
 
 
 
+# 贡献者名单（特别感谢）
+
+[archersmind](https://github.com/archersmind)
+
+[rishab-sharma](https://github.com/rishab-sharma)
