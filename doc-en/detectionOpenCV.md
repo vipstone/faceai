@@ -80,7 +80,7 @@ if len(faceRects):  # 大于0则检测到人脸
     for faceRect in faceRects:  # 单独框出每一张人脸
         x, y, w, h = faceRect
         # 框出人脸
-        cv2.rectangle(img, (x, y), (x + h, y + w), color, 2)
+        cv2.rectangle(img, (x, y), (x + w, y + h), color, 2)
         # 左眼
         cv2.circle(img, (x + w // 4, y + h // 4 + 30), min(w // 8, h // 8),
                    color)
